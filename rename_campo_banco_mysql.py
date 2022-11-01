@@ -62,4 +62,4 @@ except:
 		
 	print('Ocorreu erro ao tentar conectar com o banco de dados!') 
 
-rename_campo_banco_mysql("nomeProduto","idproduto","produto",dbControlMoneyMobile)
+rename_campo_banco_mysql("nomeProduto","idproduto","produto",dbControlMoney)
