@@ -22,7 +22,7 @@ def open_prompt():
     
    # If your shell script has shebang, 
    # you can omit shell=True argument.
-    result = subprocess.Popen("python2 call_function5.py".split(), stdout=subprocess.PIPE, bufsize=1, text=True)
+    result = subprocess.Popen("python3 /media/EXTRA_NVME_500GB_EXT4/CODE/PYTHON/web_scraping_with_python/Scraping_Prices_Project/produtoRastreado.py".split(), stdout=subprocess.PIPE, bufsize=1, text=True)
 
     #result = subprocess.Popen(["/scrapping_prices.sh", 
                     #"arguments"],stdout=subprocess.PIPE, bufsize=1, text=True)      
